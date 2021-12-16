@@ -16,18 +16,32 @@
 
 <body background="background.jpg">
   <center>
-    <h3 class="btn btn-info heading">Realtime Image Identification</h3>
-    <hr>
-    <center>
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
-        Model is Trained On
-        <br>
-        <div class="btn btn-warning heading_div2">
-          Phone | Spoon | Water Bottle | Watch 
+    <h3 class="btn btn-info heading">Realtime Image Identification
+      <hr>
+      <center>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
+          Model is Trained On
+          <br>
+          <div class="btn btn-warning heading_div2">
+            Phone | Spoon | Water Bottle | Watch 
+          </div>
         </div>
-      </div>
-    </center>
+      </center>
+      <br>
+    </h3>
+    <br><br>
+
+    <button class="btn-warning result_para_tag">Object : 
+      <span id="result_object_name"></span>
+    </button><br><br>
+    <button class="btn-warning result_para_tag">Accuracy : 
+      <span id="result_object_accuracy"></span>
+    </button>
   </center>
+
+  <div class="copyright_footer">
+    Developed by - Tanmay Rajapure
+  </div>
 
 <script src="main.js"></script>
 </body>
